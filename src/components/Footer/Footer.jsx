@@ -15,13 +15,16 @@ const Footer = () => {
                 <h2>
                     Design & Developed by{" "}
                     <span className="text-indigo-500 font-semibold">
-                        Mahfuz Zayn{" "}
+                        <Link to="/contact">Mahfuz Zayn</Link>{" "}
                         <span className="text-red-500 relative top-[1px] pl-0.5">
                             ❤
                         </span>
                     </span>
                 </h2>
-                <h2>Copyright © 2023 Mahfuz Zayn - All rights reserved</h2>
+                <h2>
+                    Copyright © {new Date().getFullYear()} Mahfuz Zayn - All
+                    rights reserved
+                </h2>
                 <div className="social-media flex gap-x-3 md:gap-x-2 text-xl">
                     <a
                         href="https://www.linkedin.com/in/mahfuzzayn/"
@@ -32,7 +35,7 @@ const Footer = () => {
                     <a href="https://github.com/mahfuzzayn" target="_blank">
                         <FaGithub />
                     </a>
-                    <a href="https://twitter.com/guidingtechca" target="_blank">
+                    <a href="https://twitter.com/mahfuz_zayn" target="_blank">
                         <FaTwitter />
                     </a>
                     <a

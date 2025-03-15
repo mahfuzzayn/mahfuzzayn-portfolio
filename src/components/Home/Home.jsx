@@ -20,11 +20,13 @@ const Home = () => {
                         <span className="text-indigo-600 uppercase">
                             <TypeAnimation
                                 sequence={[
-                                    "MERN Stack Developer",
+                                    "Front End Developer",
+                                    1000,
+                                    "Next.js Developer",
                                     1000,
                                     "React Developer",
                                     1000,
-                                    "Front End Developer",
+                                    "MERN Stack Developer",
                                     1000,
                                     "Web Developer",
                                     1000,
@@ -35,8 +37,9 @@ const Home = () => {
                         </span>
                     </h3>
                     <p className="max-w-md">
-                        Hey, I'm a junior MERN Stack Developer. Empowered with
-                        great skills in React.js for developing beautiful UI.
+                        Hey, I'm a Frontend Developer skilled in Next.js,
+                        React.js, Redux, Node.js, and MongoDB, building fast,
+                        dynamic, and scalable web applications.
                     </p>
                     <div className="interactions flex gap-x-2">
                         <button className="border border-blue-500 text-white p-2 px-3 rounded-lg hover:bg-indigo-500 hover:border-indigo-500">

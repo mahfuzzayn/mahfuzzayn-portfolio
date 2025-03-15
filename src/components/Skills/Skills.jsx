@@ -1,6 +1,6 @@
 import React from "react";
-import htmlLogo from "../../assets/images/languages pics/html.png";
-import cssLogo from "../../assets/images/languages pics/css.png";
+import typeScriptLogo from "../../assets/images/languages pics/typescript.png";
+import antDesignLogo from "../../assets/images/languages pics/antdesign.png";
 import javascriptLogo from "../../assets/images/languages pics/javascript.png";
 import reactLogo from "../../assets/images/languages pics/react.png";
 import tailwindcssLogo from "../../assets/images/languages pics/tailwindcss.png";
@@ -17,27 +17,38 @@ const Skills = () => {
                         Skills
                     </p>
                     <p className="py-6">
-                        I am a skilled MERN Stack developer with expertise in
-                        HTML, CSS, JavaScript, React, TailwindCSS, Next.js,
-                        Node.js, and GitHub. I have a strong understanding of
-                        front-end development, including building responsive and
-                        interactive user interfaces with React and TailwindCSS.
-                        I am proficient in back-end development using Node.js
-                        and have experience working with Next.js for server-side
-                        rendering. With a solid foundation in version control
-                        using GitHub, I am able to collaborate effectively and
-                        manage projects efficiently.
+                        I am a skilled Frontend developer with expertise in
+                        Next.js, React, Node.js, MongoDB, Redux, and
+                        TailwindCSS. I have a strong understanding of front-end
+                        development, including building responsive, interactive
+                        user interfaces with React and Next.js. On the backend,
+                        I am proficient in developing scalable applications
+                        using Node.js and MongoDB. I also have experience
+                        implementing state management with Redux and optimizing
+                        application performance. With a solid foundation in
+                        version control using Git, I collaborate effectively and
+                        manage projects efficiently, ensuring high-quality,
+                        maintainable code.
                     </p>
                 </div>
                 <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0">
                     <div
+                        data-aos="zoom-in-up"
+                        data-aos-duration="1500"
+                        data-aos-easing="ease-in-out"
+                        className="shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-white"
+                    >
+                        <img src={nextjsLogo} alt="" className="w-20 mx-auto" />
+                        <p className="mt-4">Next JS</p>
+                    </div>
+                    <div
                         data-aos="zoom-in-down"
                         data-aos-duration="1500"
                         data-aos-easing="ease-in-out"
-                        className="shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-orange-500"
+                        className="shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-blue-600"
                     >
-                        <img src={htmlLogo} alt="" className="w-20 mx-auto" />
-                        <p className="mt-4">HTML</p>
+                        <img src={reactLogo} alt="" className="w-20 mx-auto" />
+                        <p className="mt-4">React JS</p>
                     </div>
                     <div
                         data-aos="zoom-in-down"
@@ -45,8 +56,21 @@ const Skills = () => {
                         data-aos-easing="ease-in-out"
                         className="shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-blue-500"
                     >
-                        <img src={cssLogo} alt="" className="w-20 mx-auto" />
-                        <p className="mt-4">CSS</p>
+                        <img
+                            src={typeScriptLogo}
+                            alt=""
+                            className="w-20 mx-auto"
+                        />
+                        <p className="mt-4">TypeScript</p>
+                    </div>
+                    <div
+                        data-aos="zoom-in-up"
+                        data-aos-duration="1500"
+                        data-aos-easing="ease-in-out"
+                        className="shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-green-400"
+                    >
+                        <img src={nodejsLogo} alt="" className="w-20 mx-auto" />
+                        <p className="mt-4">Node JS</p>
                     </div>
                     <div
                         data-aos="zoom-in-down"
@@ -62,15 +86,6 @@ const Skills = () => {
                         <p className="mt-4">JavaScript</p>
                     </div>
                     <div
-                        data-aos="zoom-in-down"
-                        data-aos-duration="1500"
-                        data-aos-easing="ease-in-out"
-                        className="shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-blue-600"
-                    >
-                        <img src={reactLogo} alt="" className="w-20 mx-auto" />
-                        <p className="mt-4">React JS</p>
-                    </div>
-                    <div
                         data-aos="zoom-in-up"
                         data-aos-duration="1500"
                         data-aos-easing="ease-in-out"
@@ -84,22 +99,17 @@ const Skills = () => {
                         <p className="mt-4">Tailwind CSS</p>
                     </div>
                     <div
-                        data-aos="zoom-in-up"
+                        data-aos="zoom-in-down"
                         data-aos-duration="1500"
                         data-aos-easing="ease-in-out"
-                        className="shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-white"
+                        className="shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-blue-500"
                     >
-                        <img src={nextjsLogo} alt="" className="w-20 mx-auto" />
-                        <p className="mt-4">Next JS</p>
-                    </div>
-                    <div
-                        data-aos="zoom-in-up"
-                        data-aos-duration="1500"
-                        data-aos-easing="ease-in-out"
-                        className="shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-green-400"
-                    >
-                        <img src={nodejsLogo} alt="" className="w-20 mx-auto" />
-                        <p className="mt-4">Node JS</p>
+                        <img
+                            src={antDesignLogo}
+                            alt=""
+                            className="w-20 mx-auto"
+                        />
+                        <p className="mt-4">Ant Design</p>
                     </div>
                     <div
                         data-aos="zoom-in-up"

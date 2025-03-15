@@ -14,20 +14,28 @@ const About = () => {
                     />
                 </div>
                 <div className="text-section text-white space-y-4">
-                    <h1 className="text-5xl font-bold">I'm <span className="text-cyan-500">Mahfuz Zayn</span></h1>
+                    <h1 className="text-5xl font-bold">
+                        I'm <span className="text-cyan-500">Mahfuz Zayn</span>
+                    </h1>
                     <p className="text-lg text-indigo-500 font-semibold">
-                        Mern Stack Developer <span className="text-gray-500">|</span> UI/UX Designer
+                        Frontend Developer{" "}
+                        <span className="text-gray-500">|</span> Mern Stack
+                        Developer
                     </p>
                     <p>
-                        As a Junior MERN Developer, I have a solid foundation in
-                        building web applications using the MERN stack. With a
-                        focus on MongoDB, Express.js, React.js, and Node.js, I
-                        have gained hands-on experience in developing responsive
-                        and interactive user interfaces. My skills include
-                        translating design mockups into high-quality code,
-                        implementing user authentication and authorization
-                        features, and troubleshooting and debugging to optimize
-                        performance.
+                        As a Frontend and MERN Stack Developer, I have a strong
+                        foundation in building dynamic, responsive, and scalable
+                        web applications. I specialize in creating interactive
+                        user interfaces using Next.js, React.js, and Redux,
+                        ensuring a seamless and engaging user experience. On the
+                        backend, I am proficient in developing full-stack
+                        applications with Node.js, Express.js, and MongoDB,
+                        integrating APIs, and handling authentication and
+                        authorization. I am skilled in optimizing performance,
+                        debugging, and troubleshooting to ensure smooth
+                        functionality and high-quality code. My passion lies in
+                        building end-to-end solutions that are both efficient
+                        and user-friendly.
                     </p>
                     <p className="text-indigo-500">
                         Email:{" "}
@@ -40,12 +48,12 @@ const About = () => {
                     <p className="text-indigo-500">
                         Location:{" "}
                         <span className="text-white">
-                            Kayestorail, Sylhet, Bangladesh
+                            Kayesthorail, Sylhet, Bangladesh
                         </span>
                     </p>
                     <p className="text-indigo-500">
                         Number:{" "}
-                        <span className="text-white">+8801580464009</span>
+                        <span className="text-white">+880 160645 1099</span>
                     </p>
                     <button className="bg-indigo-500 px-4 py-2 rounded-lg">
                         <a

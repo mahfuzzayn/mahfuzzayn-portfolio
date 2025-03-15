@@ -112,7 +112,7 @@ const Contact = () => {
                         <div className="space-y-1">
                             <h4 className="font-medium">Address</h4>
                             <p className="font-light">
-                                Kayestorail, Sylhet, Bangledesh
+                                Kayesthorail, Sylhet, Bangladesh
                             </p>
                         </div>
                     </div>
@@ -151,7 +151,7 @@ const Contact = () => {
                         </div>
                         <div className="space-y-1">
                             <h4 className="font-medium">Phone</h4>
-                            <p className="font-light">+880 158046 4009</p>
+                            <p className="font-light">+880 160645 1099</p>
                         </div>
                     </div>
                 </div>
