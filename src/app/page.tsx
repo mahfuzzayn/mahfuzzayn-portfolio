@@ -42,7 +42,7 @@ const HomePage = () => {
                     <div className="interactions flex gap-x-2">
                         <Link href="/contact" className="">
                             <button className="border border-blue-500 text-white p-2 px-3 rounded-lg hover:bg-indigo-500 hover:border-indigo-500 cursor-pointer">
-                                Hire Me
+                                Hire Me Now
                             </button>
                         </Link>
                         <button className="bg-blue-500 text-white p-2 px-4 rounded-[25px]">
