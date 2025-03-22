@@ -62,6 +62,12 @@ const HomePage = () => {
                         alt="Banner Image of Mahfuz Zayn"
                     />
                 </div>
+                <p>
+                    This approach doesn't require an API key and is completely
+                    free. 3. Use Static Google Maps API (No Billing Required) If
+                    you need a static map image, you can use the Google Static
+                    Maps API without worrying about JavaScript-based billing:
+                </p>
             </div>
         </div>
     );
