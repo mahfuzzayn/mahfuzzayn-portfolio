@@ -73,7 +73,7 @@ const ContactForm = () => {
                 type="submit"
                 className="bg-indigo-500 w-full !p-6 rounded-lg text-white hover:!bg-indigo-500 cursor-pointer"
             >
-                Submit
+                Submit It
             </Button>
         </form>
     );
