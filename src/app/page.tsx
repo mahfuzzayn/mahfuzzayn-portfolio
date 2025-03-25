@@ -62,7 +62,6 @@ const HomePage = () => {
                         alt="Banner Image of Mahfuz Zayn"
                     />
                 </div>
-                <p>Need Development HERE</p>
             </div>
         </div>
     );
