@@ -42,7 +42,7 @@ const HomePage = () => {
                     <div className="interactions flex gap-x-2">
                         <Link href="/contact" className="">
                             <button className="border border-blue-500 text-white p-2 px-3 rounded-lg hover:bg-indigo-500 hover:border-indigo-500 cursor-pointer">
-                                Hire Me Now
+                                Hire Me
                             </button>
                         </Link>
                         <button className="bg-blue-500 text-white p-2 px-4 rounded-[25px]">
@@ -62,12 +62,7 @@ const HomePage = () => {
                         alt="Banner Image of Mahfuz Zayn"
                     />
                 </div>
-                <p>
-                    This approach doesn't require an API key and is completely
-                    free. 3. Use Static Google Maps API (No Billing Required) If
-                    you need a static map image, you can use the Google Static
-                    Maps API without worrying about JavaScript-based billing:
-                </p>
+                <p>Need Development HERE</p>
             </div>
         </div>
     );

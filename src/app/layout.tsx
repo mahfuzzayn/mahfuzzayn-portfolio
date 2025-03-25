@@ -40,7 +40,6 @@ export default function RootLayout({
                     <NavBar />
                     {children}
                     <Footer />
-                    <h1>For Debugging Purpose</h1>
                 </main>
                 <Toaster richColors />
             </body>
