@@ -7,7 +7,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
     title: "About - Mahfuz Zayn - Portfolio",
     description:
-        "As a Frontend and MERN Stack Developer, I have a strong foundation in building dynamic, responsive, and scalable web applications. I specialize in creating interactive user interfaces using Next.js, React.js, and Redux, ensuring a seamless and engaging user experience. On the backend, I am proficient in developing full-stack applications with Node.js, Express.js, and MongoDB, integrating APIs, and handling authentication and authorization. I am skilled in optimizing performance, debugging, and troubleshooting to ensure smooth functionality and high-quality code. My passion lies in building end-to-end solutions that are both efficient and user-friendly.",
+        "Hi, As a Frontend and MERN Stack Developer, I have a strong foundation in building dynamic, responsive, and scalable web applications. I specialize in creating interactive user interfaces using Next.js, React.js, and Redux, ensuring a seamless and engaging user experience. On the backend, I am proficient in developing full-stack applications with Node.js, Express.js, and MongoDB, integrating APIs, and handling authentication and authorization. I am skilled in optimizing performance, debugging, and troubleshooting to ensure smooth functionality and high-quality code. My passion lies in building end-to-end solutions that are both efficient and user-friendly.",
 };
 
 const AboutPage = () => {
