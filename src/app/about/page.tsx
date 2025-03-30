@@ -71,7 +71,7 @@ const AboutPage = () => {
                             target="_blank"
                             className="flex items-center gap-x-2"
                         >
-                            Resume <FaExternalLinkAlt />
+                            Resume <FaExternalLinkAlt /> Download
                         </a>
                     </button>
                 </div>
