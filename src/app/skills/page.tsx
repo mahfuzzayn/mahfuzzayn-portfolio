@@ -22,7 +22,7 @@ const SkillsPage = () => {
             <div className="max-w-screen-lg mx-auto px-10 flex flex-col justify-center w-full h-full text-white">
                 <div>
                     <p className="text-4xl md:text-5xl font-bold inline text-indigo-500">
-                        Skills
+                        Skills Here
                     </p>
                     <p className="py-6">
                         I am a skilled Frontend developer with expertise in
